@@ -99,7 +99,6 @@ function renderPosts(response){
         postBody.innerHTML=el.title;
         post.appendChild(postBody);
     })
-    console.log(response);
 }
 
 // render posts and add comments
